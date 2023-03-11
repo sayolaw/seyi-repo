@@ -65,7 +65,7 @@ header h1{
     justify-content: flex-end;
 }
 #search input{
-
+    margin-top: 0;
     width:250px;
     height:25px;
     padding:10px;
@@ -93,19 +93,7 @@ header h1{
     display: flex;
     background-color: rgb(227, 227, 227);
 }
-#about-section{
-    padding:0px 10vw;
-    display: flex;
-    font-size: 1.2em;
-    line-height: 150%;
-    height:80vh;
-    width:80vw;
-    text-align: justify;
-    align-items: center;
-    justify-content: space-between;
-  
-    background-color: rgb(227, 227, 227);
-}
+
 #about-section #left-side{
  
     padding: 20px;
@@ -118,7 +106,7 @@ header h1{
 }
 #right-side{
     color:white;
-    width:80vw;
+    width:100%;
     padding:20px;
     background-color: rgb(16, 33, 23);
 }
@@ -147,14 +135,14 @@ footer{
 #projects{
     padding:30px 5vw;
     width:90vw;
-    height:fit-content;
+    height:fit;
     background-color: rgb(227, 227, 227);
 }
 #partitions{
     display:flex;
     width:90vw;
     justify-content: space-between;
-    
+
     /* border:2px solid white; */
 }
 #left-section{
@@ -213,4 +201,26 @@ footer{
 }
 .project p{
     width:40vw;
+}
+#about{
+    width:90vw;
+    background-color: rgb(227, 227, 227);
+    padding: 30px 5vw;
+    display: flex;
+    justify-content: space-between;
+    /* border:2px solid maroon; */
+    font-size: 1.3em;
+    line-height: 200%;
+}
+#about-left{
+    width:50vw;
+    /* border:2px solid red; */
+}
+#about-right{
+    width:300px;
+    padding:15px;
+    /* border:2px solid purple; */
+    background-color: rgb(16, 33, 23);
+    color: white;
+    height: fit-content;
 }
