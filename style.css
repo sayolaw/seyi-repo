@@ -2,62 +2,63 @@ body{
     margin-left: 0;
 }
 #header{
-                   
-    color: white;
-   width:100vw;
-    height:fit-content;
-    background-color: rgb(51, 51, 158);
+    /* style for the element with id headerthat selects the color, width and height as well as the text color           */
+    color: white; /* sets text color in nav bar to white */
+   width:100vw; /* sets width to 100 viewport width(vw) which means it should cover 100% of the page */
+    height:fit-content; /* sets height to be just enough to take the contents of the navigation bar */
+    background-color: rgb(51, 51, 158); /* sets color to a shade of blue */
 }
 header{
    
-    display:flex;
-    align-items: center;
-    justify-content:space-between;
-    /* border: 2px solid green; */
-    width:75vw;
+    display:flex; /* makes the element a flexbox */
+    align-items: center; /* centers everything in the box vertically  */
+    justify-content:space-between; /* keeps space in between each individual element in the element */
+    width:75vw; /* sets width to 75 viewport width(vw) which means it should cover 75% of the page */
     margin:0 auto;
 }
 header h1{
-    font-size: 2.5em;
+    /* sets the font and width of the h1 text element */
+    font-size: 2.5em; 
     width:450px;
-    /* border:2px solid yellow; */
+  
 }
 #nav-links ul{
+    /* defines the properties for the unordered list in the header */
     display: flex;
     width:450px;
-    /* border:2px solid white; */
     align-items: center;
     justify-content: space-between;
-    list-style-type: none;
+    list-style-type: none; /* removes the list decoration */
 }
 #nav-links ul a{
-    text-decoration: none;
-    color:white
+    text-decoration: none; /* removes the underline link property */
+    color:white /* sets color of the links to white */
 
 }
 #nav-links ul a:visited{
-    color:cornflowerblue;
+    color:cornflowerblue; /* sets color of each link that has been visited to cornflower blue */
 }
 #jumbotron{
-    margin-top: 0px;
+     /* defines the properties for the jumbotron */
+    margin-top: 0px; /* makes the margin at the top of the jumbotron to be 0 pixels */
     color:white;
     width:100vw;
     height:75vh;
-    background-image: url('Images/641d1e609b0ca6fd6e79dc23b83e6fb0.jpg');
-    background-size: cover;
+    background-image: url('Images/641d1e609b0ca6fd6e79dc23b83e6fb0.jpg'); /* sets a background image for the jumbotron in a particular page */
+    background-size: cover; /* stretches the background image to cover the entire size of the jumbotron */
     display: flex;
     align-items: center;
 }
 #jumbotron h2{
     text-align: center;
     width:75vw;
-    margin: 0 auto;
+    margin: 0 auto; /* sets the top and bottom margins to zero and centers the element horizontally */
     font-size: 2em;
 }
 #search{
-    
+    /* sets the properties of the search section */
     width:100vw;
-    height:200px;
+    height:35vh;
     /* border:2px solid green; */
     display: flex;
 
@@ -65,16 +66,18 @@ header h1{
     justify-content: flex-end;
 }
 #search input{
+    /* sets the properties of the input items in the  search section */
     margin-top: 0;
     width:250px;
     height:25px;
-    padding:10px;
+    padding:10px; /* adds a 10 pixels thick padding in the element */
     color:rgb(105, 105, 105);
     border-style:solid;
-    border-width: 1px;
+    border-width: 1px; /* sets border thickness to 1 pixel */ 
     border-color: rgb(105, 105, 105);
 }
 #search button{
+     /* sets the properties of the button in the  search section */
     margin-right: 50px;
     width:200px;
     border:0px;
@@ -84,9 +87,10 @@ header h1{
     background-color: rgb(12, 12, 149);
 } 
 #sections{
+     /* sets the properties of the element with the id sections */
     padding:0px 10vw;
     align-items: center;
-    text-align: center;
+    text-align: center; /* aligns the text to the center */
     justify-content: space-between;
     height:60vh;
     width:80vw;
@@ -95,27 +99,30 @@ header h1{
 }
 
 #about-section #left-side{
- 
+  /* sets the properties for about left side of the #about-section */
     padding: 20px;
     /* border:2px solid red; */
 }
 #colored-background{
+     /* sets the properties for the part of the about section with a background color */
     color:white;
     padding: 20px;
     background-color: rgb(16, 33, 23);
 }
 #right-side{
+     /* sets the properties for the right side of the section with id right-side */
     color:white;
     width:100%;
     padding:20px;
     background-color: rgb(16, 33, 23);
 }
 .section{
+    /* sets the properties for each project in the section with class name of section */
     width:20vw;
 }
 .section p{
     font-size: 1.0em;
-    line-height: 150%;
+    line-height: 150%; /* sets text line-height to 150% */
 }
 .section h4{
     font-size: 1.2em;
@@ -124,6 +131,7 @@ header h1{
     width:200px;
 }
 footer{
+    /* sets the properties for the footer element */
     width:100vw;
     height: 10vh;
     display: flex;
@@ -133,25 +141,27 @@ footer{
     background-color: rgb(51, 51, 158);
 }
 #projects{
-    padding:30px 5vw;
-    width:90vw;
-    height:fit;
+    /* sets the properties for each project for the projects div with id of projects */
+    padding:30px 5vw; /* gives it a 30px padding on the top and bottom  and a 5vw padding on the left and right side*/
+    width:90vw;  /* gives it a 90viewport width meaning its 90% of the pages width */
+    height:fit-content;
     background-color: rgb(227, 227, 227);
 }
 #partitions{
+    /* sets properties for the partitions part */
     display:flex;
     width:90vw;
     justify-content: space-between;
 
-    /* border:2px solid white; */
+   
 }
 #left-section{
-    /* border:2px solid red; */
-    width:55vw;
+    width:55vw; /* sets the width of the left side of the partition */
 }
 #right-section{
+    /* sets the properties of the right side of the partition */
     width:30vw;
-    /* border:2px solid green; */
+    
     padding: 10px;
     padding-left: 20px;
     background-color: rgb(6, 44, 41);
@@ -159,6 +169,7 @@ footer{
     height: fit-content;
 }
 #right-section input{
+    /* sets the properties of the various input fields in te right side of the page */
     width:90%;
     display: block;
     border:0px;
@@ -167,6 +178,7 @@ footer{
     padding:5px;
 }
 #right-section textarea{
+    /* sets the property of the textarea input field */
     width:90%;
     display: block;
     border:0px;
@@ -174,6 +186,7 @@ footer{
     padding:5px;
 }
 #right-section button{
+    /* sets the property of the button input field */
     width:120px;
     padding:10px;
     margin:5px 0px;
@@ -187,6 +200,7 @@ footer{
     
 }
 .project{
+    /* sets the property of each project in the section with className of project */
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
@@ -195,7 +209,7 @@ footer{
     padding: 20px;
 }
 .project img{
-    /* border: 2px solid green; */
+   /* sets the properties of each image in each project section */
     width:100px;
     display:inline-block;
 }
@@ -203,23 +217,23 @@ footer{
     width:40vw;
 }
 #about{
+      /* sets the properties of the about section with id of about */
     width:90vw;
     background-color: rgb(227, 227, 227);
     padding: 30px 5vw;
     display: flex;
     justify-content: space-between;
-    /* border:2px solid maroon; */
     font-size: 1.3em;
     line-height: 200%;
 }
 #about-left{
     width:50vw;
-    /* border:2px solid red; */
+   
 }
 #about-right{
+      /* sets the properties of the right side of the  section */
     width:300px;
     padding:15px;
-    /* border:2px solid purple; */
     background-color: rgb(16, 33, 23);
     color: white;
     height: fit-content;
